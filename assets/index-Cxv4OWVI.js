@@ -107922,7 +107922,7 @@ const vc = {
         return (
           window.addEventListener("mousemove", r),
           () => window.removeEventListener("mousemove", r)
-        );
+        ); 
       }, []),
       W.jsx(hi.img, {
         src: "/hero_bg.jpg",
